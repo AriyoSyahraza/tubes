@@ -1,0 +1,109 @@
+@import url('https:fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background-image: url(images/bg2.png);
+}
+
+#foot {
+  background: #557174;
+}
+
+.jumbotron h1 {
+  color: #f7f7e8;
+}
+
+.jumbotron p {
+  color: #f7f7e8;
+}
+
+#pengantar {
+  background-color: #f7f7e8;
+}
+
+#satu {
+  background-color: #557174;
+  color: #f7f7e8;
+}
+
+#dua {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  top: 0;
+  background: #557174;
+}
+
+#dua .slide h2 {
+  text-align: center;
+}
+
+#dua .slide:last-child {
+  border-right: none;
+}
+
+#dua .slide {
+  position: relative;
+  background: #0f0;
+  height: 100%;
+  border-radius: 4vh;
+  flex: 1;
+  border-right: 2px solid #000;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+#dua .slide:hover {
+  flex-grow: 5;
+}
+
+#dua .slide:nth-child(1) {
+  background: url('images/img.jpeg');
+  background-position: center center;
+}
+#dua .slide:nth-child(2) {
+  background: url('images/img2.jpeg');
+  background-position: center center;
+}
+#dua .slide:nth-child(3) {
+  background: url('images/img3.jpeg');
+  background-position: center center;
+}
+#dua .slide:nth-child(4) {
+  background: url('images/img4.jpeg');
+  background-position: center center;
+}
+#dua .slide:nth-child(5) {
+  background: url('images/img5.jpeg');
+  background-position: center center;
+}
+#dua .slide:nth-child(6) {
+  background: url('images/img6.jpeg');
+  background-position: center center;
+}
+
+#dua .slide .content {
+  position: absolute;
+  bottom: 0;
+  margin: 40px;
+  padding: 30px;
+  background: #f7f7e8;
+  color: #557174;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  transform: translateY(100px);
+}
+
+#dua .slide:hover .content {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.5s;
+  transform: translateY(0);
+}

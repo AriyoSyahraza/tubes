@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #F7F7E8;
+  }
+  
+  header {
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #105652 ;
+}
+
+  li, a, button {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #F7F7E8;
+    text-decoration: none;
+    
+  }
+
+  .logo {
+      cursor: pointer;
+      color: #F7F7E8;
+      margin-right: auto;
+      
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+  .navbar li a:hover {
+      color: #9DAD7F;
+  }
+
+  button {
+      padding: 9px 25px;
+      background-color: #F7F7E8;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      color: #105652 ;
+  }
+
+  button:hover {
+      background-color: #9DAD7F;
+      color: #F7F7E8 ;
+      
+  }
+
+
+body, input {
+    font-family: "Poppins", sans-serif;
+}
+
+.profile-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #016b43;
+}
+
+.wrapper {
+    max-width: 500px;
+    width: 100px;
+    box-shadow: 0 0 5px rgba(0,0,0,.10);
+    margin: auto;
+    background: white;
+    border-radius: 4px;
+    min-height: 600px;
+    padding: 2rem;
+}
+
+.wrapper h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.wrapper .inputBox {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 1.3rem;
+    position: relative;
+}
+
+.wrapper .inputBox input {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #eee;
+    outline: none;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.wrapper .inputBox:last-child {
+    margin-bottom: 0;
+}
+
+.wrapper form {
+    padding: 0;
+}
+
+.wrapper button {
+    padding: .7rem 2rem;
+    margin-top: 2rem;
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    width: 380px;
+    background-color: #1bbd87;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: .3rem;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
